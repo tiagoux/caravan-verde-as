@@ -162,7 +162,7 @@ function App() {
         {state.upload.isValid && (
           <div className="card" style={{ textAlign: 'center' }}>
             <h2>🎯 Realizar Sorteio</h2>
-            <p style={{ marginBottom: '20px', color: '#666' }}>
+            <p style={{ marginBottom: '20px', color: '#262730' }}>
               {state.upload.hasDrawn 
                 ? 'Sorteio já realizado com este arquivo'
                 : `Pronto para sortear entre ${state.upload.numbers.length} números`

@@ -12,7 +12,7 @@ export const DrawHistory: React.FC<DrawHistoryProps> = ({ history }) => {
       <div className="card">
         <div className="log-section">
           <h2>📋 Histórico de Sorteios</h2>
-          <p style={{ textAlign: 'center', color: '#666', padding: '20px' }}>
+          <p style={{ textAlign: 'center', color: '#262730', padding: '20px' }}>
             Nenhum sorteio realizado ainda.
           </p>
         </div>
@@ -42,7 +42,7 @@ export const DrawHistory: React.FC<DrawHistoryProps> = ({ history }) => {
             <li key={`${draw.timestamp}-${index}`} className="log-item">
               <div>
                 <div className="log-number">{draw.number}</div>
-                <div style={{ fontSize: '0.8rem', color: '#888' }}>
+                <div style={{ fontSize: '0.8rem', color: '#666' }}>
                   {draw.totalNumbers} números participantes
                 </div>
               </div>
