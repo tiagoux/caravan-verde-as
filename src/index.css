@@ -247,26 +247,28 @@ code {
 }
 
 .transparency-info {
-  background: rgba(38, 39, 48, 0.05);
-  border: 1px solid rgba(38, 39, 48, 0.2);
+  background: rgba(38, 39, 48, 0.08);
+  border: 1px solid rgba(38, 39, 48, 0.15);
   border-radius: 8px;
   padding: 16px;
   margin: 20px 0;
 }
 
 .transparency-info h3 {
-  color: #262730;
+  color: #1a1b23;
   margin-bottom: 12px;
   font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .transparency-info ul {
-  color: #262730;
+  color: #1a1b23;
   padding-left: 20px;
 }
 
 .transparency-info li {
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+  line-height: 1.4;
 }
 
 @media (max-width: 768px) {

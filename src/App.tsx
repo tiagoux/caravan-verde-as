@@ -155,7 +155,9 @@ function App() {
 
         {/* Informações de Transparência */}
         {state.upload.isValid && (
-          <TransparencyInfo totalNumbers={state.upload.numbers.length} />
+          <div className="card">
+            <TransparencyInfo totalNumbers={state.upload.numbers.length} />
+          </div>
         )}
 
         {/* Botão de Sorteio */}
